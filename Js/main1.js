@@ -1,5 +1,3 @@
-//newdocu
-
 function addition(){
     var num1 = 1500, num2 = 60000;
     var sum = num1 + num2;
@@ -61,4 +59,3 @@ function decrea(){
 
 //window.alert(Math.random()*100);// display random numbers
 window.alert(Math.max(5, 10, 15, 20)) ; //find the maximum value of each number
-
