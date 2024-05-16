@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+//newdocu
+
 function addition(){
     var num1 = 1500, num2 = 60000;
     var sum = num1 + num2;
@@ -60,27 +61,4 @@ function decrea(){
 
 //window.alert(Math.random()*100);// display random numbers
 window.alert(Math.max(5, 10, 15, 20)) ; //find the maximum value of each number
-=======
-var x='Hi Juvylyn!';
 
-
-window.alert(x);
-
-var c = "\"Hi says Mark\" \"hello\" says Juvy " + "They talked to each other<br><br><br>";
-
-document.write(c);
-
-var family="Leron", Dad = "Mark", Daughter ="Maxine", Son="Matthew";
-
-document.write(2+2);
-
-var Sent1 = "This is the beginning of the string", Sent2 = " and this is the end of the string";
-
-document.write(Sent1 + Sent2); //will display the value of the string
-
-function displayDate() {
-    var currentDateTime = new Date();
-    document.getElementById("demo").innerText = currentDateTime.toString();
-}
-
->>>>>>> f8a570674f8cd68c3b2c8ba13ce152442cea9c59
