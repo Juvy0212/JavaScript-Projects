@@ -118,3 +118,9 @@ header, footer {
     margin-top: 20px;
     text-align: center;
 }
+img{
+    position: fixed; /* This fixes the video to the page */
+    right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
+    bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
+    min-width: 20%; /* This ensures the video is displayed across the full width of the page */
+}
