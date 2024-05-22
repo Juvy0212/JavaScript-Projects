@@ -1,0 +1,120 @@
+#menuBG{
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+#totalPrice{
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+}
+.left{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.center {
+	width:200px;
+	height:200px;
+	float:left;
+	}
+.right{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+#cart{
+    top: 0; margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#FFF8DC; /* Light, warm background */
+    color: #333333; /* Dark gray text for readability */
+    font-family: 'Roboto', sans-serif;
+
+}
+header, footer {
+    background-color: #8B0000; /* Rich dark red for headers and footers */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+h2, h3, .header-font {
+    font-family: 'Lobster', cursive; /* Decorative font for headers */
+}
+button.primary {
+    background-color: #FFA500; /* Inviting orange for primary buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+a {
+    color: #228B22; /* Fresh green for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+}
+h3{
+    color:#333333;
+}
+footer{
+    text-align: center;
+}
+#btnOrder {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-color: #FFA500; /* Inviting orange for primary buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header, footer {
+    background-color: #8B0000; /* Rich dark red for headers and footers */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#frmMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu {
+    width: 180px;
+}
+
+#cart {
+    margin-top: 20px;
+    text-align: center;
+}
