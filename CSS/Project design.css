@@ -1,0 +1,36 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center; /* Align items vertically at center */
+    padding: 20px; /* Add padding around header */
+    background-color: #333; /* Header background color */
+    color: #fff; /* Text color */
+}
+
+.logo img {
+    width: 80px; /* Adjust width of logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav {
+    display: flex; /* Use flexbox for navigation items */
+}
+
+.nav a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding around links */
+    margin-right: 10px; /* Add right margin between links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav a:hover {
+    background-color: #555; /* Background color on hover */
+}

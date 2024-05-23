@@ -1,0 +1,47 @@
+/*This container includes table and canvas */
+.center-container{
+    /*set the  width of the container */
+    width: 608px;
+    /*center the container */
+    margin: 0 auto;
+    /*50 px from the top */
+    margin-top: 50px;
+}
+table {
+    /*colapse table border into 1 border*/
+    border-collapse: collapse;
+    /*hides outer border of table*/
+    border-style: hidden;
+}
+td{
+    /*changes cursor into index finger when hover to element */
+    cursor: pointer;
+    /*set the table border style*/
+    border: 4px solid #f8c419;
+    /*Remove the defeault padding settings*/
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    filter: contrast(3);
+}
+canvas{
+    /*set the position of canvas to the top left conrner of the container*/
+    position: absolute;
+    /*Place canvas on top of the table*/
+    z-index: 10;
+    /*make canvas visible*/
+    pointer-events: none;
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+}
+select {
+    background-image: url('images/x.jpg');
+    background-size: cover;
+}
+.background-image {
+    background-size: contain; /* or cover, depending on your needs */
+    background-repeat: no-repeat;
+    background-position: center;
+}
