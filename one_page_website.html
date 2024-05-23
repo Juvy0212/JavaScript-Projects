@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dogs Babies</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
+</head>
+<body>
+<!-- Header Section with Logo and Navigation-->
+<header class="header">
+    <div class="logo">
+        <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\logo.jpg" alt="logo" class="logo-img">
+    </div>
+    <div class="nav">
+        <div class="nav2">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+            <a href="#contact" class="nav-link">Contact us</a>
+        </div>
+    </div>
+</header>
+<!-- Home Section -->
+<section>
+    <div id="home">
+        <div class="banner-container">
+            <span class="banner-text">Dog Babies</span>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\banner.jpg" alt="banner" class="banner">
+        </div>
+    </div>
+</section>
+<!-- Gallery Section -->
+<section class="Section">
+    <div id="gallery">
+        <h1>Gallery</h1>
+        <div class="photo-container">
+            <!-- Photo Container 1 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog1.webp" alt="German Shepperd" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a German Shepperd</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 2 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog2.webp" alt="Pitbull" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Pitbull</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 3 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog3.jpg" alt="Golden Retriever" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Golden Retriever</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 4 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog4.webp" alt="Rottweiler" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Rottweiler</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 5 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog5.avif" alt="Doberman" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Doberman</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 6 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog6.webp" alt="Husky" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Husky</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 7 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog7.jpg" alt="Border Collie" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Border Collie</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 8 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog8.avif" alt="Dachshund" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Dachshund</p>
+                </div>
+            </div>
+            
+            <!-- Photo Container 9 -->
+            <div class="photo-item">
+                <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog9.webp" alt="Pomeranian" class="hover-shadow" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                <div class="caption">
+                    <h3>Click to Enlarge</h3>
+                    <p>This is a Pomeranian</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal Section -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog1.webp" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog2.webp" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog3.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog4.webp" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog5.avif" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog6.webp" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog7.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog8.avif" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="C:\Users\Laptop\Documents\GitHub\Project\Images\dog9.webp" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Us Section -->
+<div id="contact" class="bottom-section">
+    <div>
+        <h1 class="content">Contact us</h1>
+        <h2><span>Please provide the following information</span></h2>
+        <div>
+            <form action="" method="post">
+                <input class="rsvp" type="text" placeholder="First Name">
+                <input class="rsvp" type="text" placeholder="Last Name">
+                <input class="rsvp" type="email" placeholder="Email Address">
+                <input class="rsvp" type="text" placeholder="Phone Number">
+                <div class="formspacer">
+                    <label class="terms"> Terms and Conditions</label>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div>www.dogbabies.babies &nbsp;&nbsp;&nbsp;&nbsp; &copy; 2024</div>
+</footer>
+
+<script src="js/one_page_website.js"></script>
+</body>
+</html>
