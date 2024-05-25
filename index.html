@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html LANG=en>
+    <head>
+        <title>
+            Juvy Portfolio
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Final Project.css">
+    </head>
+    <!--Body-->
+    <body class="background">
+        <div>
+            <div class="navbar">
+                <a class="active" href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#juvy">Juvy</a>
+                <a onclick="openForm()" ondblclick="closeForm()" class ="contact">Contact</a>
+            </div>
+            <br/>
+            <br/>
+            <!--Background Video-->
+             <div class="home">
+                <video autoplay muted loop id="Typing_Video">
+                    <source src="./images/video/typing.mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+            <!--Video Text-->
+            <div class="Video_Text">
+                    <h1 class="white-text">Juvy Lyn Leron</h1>
+                    <strong class="center">
+                        <p>
+                            <q>
+                                <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                                    <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                                    <br>field of battle and to command such unswervingly dutiful actors or troops.
+                                </q>
+                                <br> -Joseph Weizenbaum
+                                <br>
+                                <br> Hello and welcome! I'm Juvy, a passionate software developer dedicated to crafting innovative solutions. 
+                                <br> Come and join me explore my different experience as a software engineer.
+                                <br>
+                                <br> Thank you for stopping by and enjoy! 
+                            </q>
+                        </p>
+                    </strong>
+            </div>
+            
+            <!--slide show-->
+            <div id = "slideshow">
+                <div id="slideshow_background">
+                    <div id="Slideshow_Container">
+                        <!--Slide 1/6-->
+                        <div class="mySlides fade">
+                            <img src = "images/Juvy.jpg">
+                            <div class ="text">Hi I am a software engineer.
+                            </div>
+                        </div>
+                        <!--Slide 2/6-->
+                        <div class="mySlides fade">
+                            <img src = "images/C_Sharp_and_Dot_NET.png">
+                            <div class ="text">Knowledgeable in C#                        
+                            </div>
+                        </div>
+                        
+                         <!--Slide 3/6-->
+                         <div class="mySlides fade">
+                            <img src = "images/SQL_and_Database(2).jpg">
+                            <div class ="text">   Knowledgeable in MySql</div>
+                        </div>
+                         <!--Slide 4/6-->
+                         <div class="mySlides fade">
+                            <img src = "images/Python.png">
+                            <div class ="text">I can help you these programming languages.
+
+                            </div>
+                        </div>
+                        <!--Slide 5/6-->
+                        <div class="mySlides fade">
+                            <img src = "images/HTML_CSS_and_JavaScript.jpeg">
+                            <div class ="text">I am knowledgeable with these different platforms
+                            
+                        </div>
+                        </div>
+                        <!--Slide 6/6-->
+                        <div class="mySlides fade">
+                            <img src = "images/contact.jpg">
+                            <div class ="text"><a class = "white-text contact" onclick="openForm()">Contact me now!</a>
+                            </div>
+                        </div>
+               
+                <!--Previous and next buttons-->
+                <a class ="Previous" onclick = "plusSlides(-1)">&#10094;</a>
+                <a class ="Next" onclick = "plusSlides(1)">&#10095;</a>
+                       
+            <br><!--Adds a space between the slideshows images and dots-->
+           
+            <!--Slideshow dots -->
+                <div style ="text-align:center">
+                    <span class = "dot" onclick="currentSlide(1)"></span>
+                    <span class = "dot" onclick="currentSlide(2)"></span>
+                    <span class = "dot" onclick="currentSlide(3)"></span>
+                    <span class = "dot" onclick="currentSlide(4)"></span>
+                    <span class = "dot" onclick="currentSlide(5)"></span>
+                    <span class = "dot" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+            <!--end of slide show-->
+            <!--About-->
+            <div class="Row" id="About">
+                <div class="Column_2">
+                    <img src="./images/img_1.jpg">
+                </div>
+
+                <div class="Column_1">
+                    <h1>About</h1>
+                    <p>
+                        I am a software developer and an experienced instructor at Laguna University, and I love traveling with my family.
+                        <br>
+                        <br>
+                        <br>I am a full-stack developer with experienced in the programming languages like C#, C++, HTML, CSS and more. You can <a href="#Contact">Contact</a> me below!
+                    </p>
+                </div>
+            </div>
+            <!--end about-->
+            <!--Github-->
+        <div class="Row" id="GitHub">
+            <!--Left Column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Juvy0212/HTML-and-CSS-Projects.git" target="_blank">Juvy0212</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class = "Column_2">
+                <a href ="https://github.com/Juvy0212/HTML-and-CSS-Projects.git"  target ="_blank"><img src ="images/GitHub.png"></a>
+            </div>
+                
+        </div>
+        <!--Github end-->
+
+        <!--Contact-->
+        <div id ="Contact ">
+            <button onclick="openForm()" class = "Pop_Up_Button">CONTACT</button>
+            <div class = "form-popup" id = "myForm">
+                <!--Free on;ine service from formspree-->
+                <form action ="Juvy Leronhttps://formspree.io/f/xpzvnpgo" method="POST" class = "form-container">                <h1>Contact</h1>
+                    <label for="name"><b>Name:</b></label>
+                    <input type ="text" placeholder="Type your name here" name ="name" required>
+                    <label for="phone"><b>Phone:</b></label>
+                    <input type ="text" placeholder="Type your phone here" name ="phone" required>
+                    <label for="email"><b>Email:</b></label>
+                    <input type ="text" placeholder="Type your email address here" name ="email" required>
+                    <label for="message"><b>Message:</b></label>
+                    <input type ="text" placeholder="Type your message here" name ="message" required>
+            
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                </form>
+            </div>
+        </div>
+
+<!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Juvy Lyn Leron., <a href="toralbajuvylyn25@gmail.com" target="_blank">toralbajuvylyn25@gmail.com</a></p>
+                <br>
+            </p>
+        </footer>
+    <script src = "portfolio.js"></script>
+    </body>
+</html>
